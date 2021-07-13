@@ -1,0 +1,115 @@
+*{  
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+#header{
+    display: flex;
+   width: auto;
+    height: 80px;
+    background-color: rgb(31, 192, 221);
+    border-radius: 15px; 
+    justify-content:space-between;
+}
+#logo{  
+ vertical-align: -100%;
+  width: auto;
+  height: 100%;
+  border-radius: 15px;
+  align-self: flex-start;
+
+}
+body{ 
+    width: auto;
+    background-color: black;
+}
+#menu-buttons-icon {
+    width: auto;
+    transition: box-shadow.3s;
+}
+#shopping-cart{
+    
+    width: auto;
+    height: 90%;
+    
+}
+.menu-buttons{
+    margin: auto;   
+    height: 70%;
+    background-color: rgb(8, 212, 52);
+    border-radius: 15px;
+}
+.menu-buttons-text{
+   font-family:'Pixelated';
+    color: black;
+    padding: 10px;
+    font-size: 30px; 
+}
+ #menu-buttons-icon:hover,#logo:hover{
+    cursor: pointer;
+    box-shadow: 0  0 16px black;
+}
+.menu-buttons:hover{
+    box-shadow:0 0 16px rgb(7, 71, 1);
+    cursor: pointer;
+}
+#general-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#title{
+    margin: 20px;
+    margin:auto;
+    font-size: 45px;
+    color: rgb(246, 138, 66);
+    font-family: 'Pixelated';
+}
+#sub-title{
+    margin: 20px;
+    align-self: center;
+    font-size: 25px;
+    color: rgb(246, 138, 66);
+    font-family: 'Pixelated';
+}
+
+#call-to-action-text1{
+    font-family: 'Pixelated';
+    font-size: 35px;
+    color: rgb(199, 27, 107);
+    
+}
+#call-to-action-text2{
+    align-self: center;
+    margin-top: 20px;
+    font-family: 'Pixelated';
+    font-size: 25px;
+    color: rgb(199, 27, 107);
+    
+}
+#email-form{
+        height: 40px;
+        width: 50%;   
+}
+#email-box{
+    margin: 10px;
+    border: solid rgb(8, 212, 52) 6px;
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'Pixelated';
+    src:url('./fonts/Pixelated.ttf.woff') format('woff'),
+        url('./fonts/Pixelated.ttf.svg') format('svg'),
+        url('./fonts/Pixelated.ttf.eot'),
+        url('./Pixelated.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
