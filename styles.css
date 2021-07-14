@@ -20,7 +20,7 @@
 
 }
 body{ 
-    width: auto;
+    
     background-color: black;
 }
 #menu-buttons-icon {
@@ -43,6 +43,8 @@ body{
     height: 70%;
     background-color: rgb(23, 116, 43);
     border-radius: 15px;
+    border:outset gray 3px;
+  
 }
 
 .menu-buttons-text{
@@ -60,17 +62,22 @@ body{
 }
 
 #general-container{
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 #wrapper{
-    position: relative;
     display: flex;
-    justify-content: center;
-    text-align: center;
+    justify-content: center; 
     flex-wrap: wrap;
 }
+.img-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 #title{
     align-self: center;
     margin: 20px;
@@ -87,9 +94,19 @@ body{
     border-radius: 20px;
     border: solid rgb(83, 90, 90) 6px;
     color: rgb(3, 97, 160);
-    font-size: 22px;
-    
+    font-size: 22px;  
     font-family:'Pixelated' ;
+}
+.inner-divs{
+    margin: 5px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+   text-align: center;
+   align-content: center;
+   
 }
 #sub-title{
     margin-bottom: auto;
@@ -104,7 +121,7 @@ body{
     font-size: 35px;
     color: rgb(199, 27, 107);
     margin: 20px;
-    
+ 
 }
 #call-to-action-text-2{
     align-self: center;
@@ -147,8 +164,10 @@ body{
     height: auto;
 }
 .img-container{
-    margin-top: 2px;
-    margin-bottom: 2px;
+    align-self: center;
+    width: 100%;
+    height: auto;
+    
     
 }
 
