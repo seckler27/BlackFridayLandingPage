@@ -86,20 +86,27 @@ body{
     font-family: 'Pixelated';
 }
 
-#call-to-action-text1{
+#call-to-action-text-1{
     font-family: 'Pixelated';
     font-size: 35px;
     color: rgb(199, 27, 107);
     margin: 20px;
     
 }
-#call-to-action-text2{
+#call-to-action-text-2{
     align-self: center;
     margin-top: 20px;
     font-family: 'Pixelated';
     font-size: 25px;
     color: rgb(199, 27, 107);
     
+}
+#call-to-action-text-3{
+    margin-top: 70px;
+    align-self: center;
+    font-family: 'Pixelated';
+    font-size: 30px;
+    color: rgb(23, 116, 43);
 }
 #email-form{
         height: 40px;
@@ -121,6 +128,10 @@ body{
     border-radius:25px;
     background-color: rgb(23, 116, 43);
     font-family: 'Pixelated';
+}
+.responsive{
+    width: 100%;
+    height: auto;
 }
 
 @font-face {
