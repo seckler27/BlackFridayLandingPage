@@ -72,13 +72,22 @@ body{
 }
 #title{
     margin: 20px;
+    margin-left: 50px;
     margin-bottom: 50px;
-    font-size: 45px;
+    font-size: 55px;
     color: rgb(246, 138, 66);
     font-family: 'Pixelated';
 }
+#countdown-display{
+    padding: 15px;
+    border-radius: 20px;
+    border: solid rgb(83, 90, 90) 6px;
+    color: rgb(3, 97, 160);
+    font-size: 22px;
+    margin: auto;
+    font-family:'Pixelated' ;
+}
 #sub-title{
-    
     margin-bottom: auto;
     align-self: center;
     font-size: 25px;
@@ -132,6 +141,11 @@ body{
 .responsive{
     width: 100%;
     height: auto;
+}
+.img-container{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    
 }
 
 @font-face {
