@@ -109,7 +109,8 @@ body{
    
 }
 #sub-title{
-    margin-bottom: auto;
+    
+    margin:10px;
     align-self: center;
     font-size: 25px;
     color: rgb(23, 116, 43);
