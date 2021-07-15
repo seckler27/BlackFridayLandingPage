@@ -6,15 +6,13 @@ emailForm.addEventListener('submit', (event) => {
             email,
             name
         } 
-        var dataArray = [];
+        let dataArray = JSON.parse(localStorage.getItem('lead')) || [];
         dataArray.push(data);
-       
+        let convertedData = JSON.stringify(dataArray);
+        localStorage.setItem('lead', convertedData);
+        alert('Cadastro efetuado com sucesso!');
     }
-);  
-
-let convertedData = JSON.stringify(dataArray);
-localStorage.setItem('lead', convertedData);
-alert('Cadastro efetuado com sucesso!');
+);
 
 
 
