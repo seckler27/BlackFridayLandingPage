@@ -43,16 +43,14 @@
         </div>
         <div class="inner-divs">
             <form id="email-form">
-                <input type="email" name="email" id="email-box" placeholder="Digite seu email">
+                <input type="text" name="name" id="name-box" placeholder="Digite seu nome" required >
+                <input type="email" name="email" id="email-box" placeholder="Digite seu email" required >
+                <button id="submit-button" type="submit" form="email-form" value="Submit">
+                    Cadastrar
+                </button>
             </form>
         </div>
-        <div class="inner-divs">
-            <button id="submit-button" type="submit" form="email-form" value="Submit">
-                Enviar
-
-            </button>
-        </div>
-        <div class="inner-divs">
+        <div class="inner-divs" id="call-to-action-two-container">
             <p id="call-to-action-text-2">
                 Digite seu e-mail e seja parte do nosso grupo VIP!!!
             </p>
@@ -61,7 +59,6 @@
         <div class="inner-divs">
             <p id="call-to-action-text-3">
                 Alguns jogos que bombaram ano passado:
-
             </p>
         </div>
     </div>
@@ -107,6 +104,7 @@
     </div>
     <script src="https://kit.fontawesome.com/cfbebd4682.js" crossorigin="anonymous"></script>
     <script src="./app.js"></script>
+    <script src="./countdownTimer.js"></script>
 </body>
 
 </html>

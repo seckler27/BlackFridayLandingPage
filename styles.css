@@ -9,7 +9,7 @@
     height: 80px;
     background-color: rgb(0, 0, 0);
     border-radius: 15px; 
-    justify-content:space-evenly;
+    justify-content:space-between;
 }
 #logo{  
  vertical-align: -100%;
@@ -39,7 +39,7 @@ body{
     
 }
 .menu-buttons{
-    margin: auto;   
+      
     height: 70%;
     background-color: rgb(23, 116, 43);
     border-radius: 15px;
@@ -98,7 +98,7 @@ body{
     font-family:'Pixelated' ;
 }
 .inner-divs{
-    margin: 5px;
+    margin: auto;
     width: 100%;
     height: auto;
     display: flex;
@@ -123,6 +123,9 @@ body{
     margin: 20px;
  
 }
+#call-to-action-two-container{
+    margin-top: 50px;
+}
 #call-to-action-text-2{
     align-self: center;
     margin-top: 20px;
@@ -139,10 +142,15 @@ body{
     color: rgb(23, 116, 43);
 }
 #email-form{
+    margin-top: 50px;
+        display: flex;
+       justify-content: space-around;
+        flex-wrap: wrap;
+        align-content: center;
         height: 40px;
         width: 50%;   
 }
-#email-box{
+#email-box,#name-box{
     background-color: black;
     color: rgb(246, 138, 66);
     margin-bottom:  10px;
@@ -152,9 +160,11 @@ body{
     width: 100%;
     height: 100%;
 }
-#submit-button{
+
+#submit-button{  
     padding: 10px;
     margin-left: 20px;
+    align-self: center;
     border-radius:25px;
     background-color: rgb(23, 116, 43);
     font-family: 'Pixelated';
@@ -170,7 +180,6 @@ body{
     
     
 }
-
 @font-face {
     font-family: 'Pixelated';
     src:url('./fonts/Pixelated.ttf.woff') format('woff'),
