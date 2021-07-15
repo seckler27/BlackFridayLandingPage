@@ -1,4 +1,4 @@
-const finalDate = new Date('07/15/2021 ');
+const finalDate = new Date('11/26/2021 ');
 let countdownToBlackFriday = setInterval(function () {
     let dateNow = Date.now();
     let dateDifference = finalDate - dateNow;
