@@ -10,9 +10,10 @@ emailForm.addEventListener('submit', (event) => {
         dataArray.push(data);
         const convertedData = JSON.stringify(dataArray);
         localStorage.setItem('lead', convertedData);
-        const audio = document.getElementById('audio')  ;
-        audio.play(); 
-        alert('Cadastro efetuado com sucesso! Muito obrigado!');
+        const audio = document.getElementById('audio') ;
+        audio.play();
+       alert('Cadastro efetuado com sucesso! Muito obrigado!');
+        
     }
 );
 
