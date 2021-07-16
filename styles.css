@@ -3,6 +3,13 @@
     margin:0;
     box-sizing: border-box;
 }
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: space-around;
+    align-content: center;
+}
 #header{
     display: flex;
    width: auto;
@@ -28,13 +35,28 @@ body{
     width: auto;
     transition: box-shadow.3s;
 }
+#footer-text{
+    
+        margin-top: 70px;
+        align-self: center;
+        font-family: 'Pixelated';
+        font-size: 30px;
+         color: rgb(199, 27, 107)
+    
+}
+
+.social-media{
+    margin:30px;
+    font-size: 30px;
+    align-self: center;
+    color: rgb(23, 116, 43);
+}
 #cart{
     margin-right: 10px;
     margin-top: 10px;
     align-self: center;
     color: rgb(23, 116, 43);
-    width: auto;
-    height: 90%;
+    
    font-size: 56px;
     
 }
@@ -51,13 +73,15 @@ body{
    font-family:'Pixelated';
     color: black;
     padding: 10px;
+   
     font-size: 30px; 
 }
+
 #logo:hover,.menu-buttons:hover,#submit-button:hover {
     cursor: pointer;
     box-shadow: 0  0 16px rgb(72, 200, 61);
 }
-#cart:hover{
+#cart:hover,.social-media:hover{
     cursor: pointer;
 }
 
