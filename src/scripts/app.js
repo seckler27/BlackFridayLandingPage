@@ -9,7 +9,9 @@ emailForm.addEventListener('submit', (event) => {
         const dataArray = JSON.parse(localStorage.getItem('lead')) || [];
         dataArray.push(data);
         const convertedData = JSON.stringify(dataArray);
-        localStorage.setItem('lead', convertedData);    
+        localStorage.setItem('lead', convertedData);
+        const audio = document.getElementById('audio')  ;
+        audio.play(); 
         alert('Cadastro efetuado com sucesso! Muito obrigado!');
     }
 );
